@@ -160,7 +160,7 @@ nav .menu a{
 .section-heading{
     max-width: 827px;
     text-align: center;
-    margin: 0 auto;;
+    margin: 0 auto;
 }
 
 .skills-container .skill-box{
@@ -189,5 +189,82 @@ nav .menu a{
     font-weight:400 ;
     color:rgba(117, 117, 117, 1); 
     line-height: 28px;
+}
+
+/* creating resume section */
+
+#resume{
+    padding-top: 130px;
+}
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.resume-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 113px;
+}
+
+#resume .resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-container .education .section-title {
+    font-size: 30;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume-container .experience .section-title {
+    font-size: 30;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume-card{
+    max-width: 511px;
+    margin: 0 auto;
+    margin-right: 47px;
+
+}
+.resume-card .card-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+.resume-card .card-info{
+    font-size: 20px;
+    font-weight: semibold;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+.resume .card-text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    max-width: 511px;
+}
+.resume-container hr{
+    margin:30px 0;
+}
+.button-download button{
+     background-color: #FD6E0A;
+     border: none;
+     padding: 18px 35px;
+     border-radius: 5px;
+     font-size: 20px;
+     font-weight: bold;
+     color: white;
+     cursor: pointer;
+
+}   
+.button-download{
+text-align: center;
 }
 
