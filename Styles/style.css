@@ -140,3 +140,47 @@ nav .navigation ul{
     font-size: 15px;
     font-weight: bold;
 }
+
+#card-container{
+    max-width: 1140px;
+    margin: 0 230px 130px 230px;
+    text-align: center;
+
+}
+
+#card-container h1{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#card-container p{
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+#card-container .cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#card-container .cards .card{
+    padding: 30px 33px;
+    text-align: left;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.103);
+    border: none;
+    border-radius: 5px;
+}
+#card-container .cards .card h4{
+    padding: 30px 0 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+}
+#card-container .cards .card p{
+    font-size: 16px;
+    color: #757575;
+}
