@@ -37,7 +37,7 @@ header{
     padding-top: 50px;
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
     background-repeat: no-repeat;
-    background-position: left top,right bottom;
+    background-position: 23px 32px,right bottom;
    
 }
 nav{
@@ -99,17 +99,20 @@ nav .navigation ul{
     gap: 30px;
 }
 .hero .hero-image img{
-    max-width: 584px;
-    height: 600px;
+    max-width: 600px;
+    height: 640px;
     vertical-align: middle;
 }
 
 
 #about{
-    max-width: 1140px;
-    margin: 130px 230px;
+     padding: 130px 230px;
+}
+#about .about-container{
     padding: 131px 157px;
     text-align: center;
+    max-width: 1140px;
+    margin: 0 auto;
     background-color: #FFF8F3;
 }
 .personal-details{
@@ -142,12 +145,14 @@ nav .navigation ul{
 }
 
 #card-container{
-    max-width: 1140px;
-    margin: 0 230px 130px 230px;
-    text-align: center;
-
+    padding: 0 230px 130px 230px;
 }
 
+#card-container .c-container{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1140px;
+}
 #card-container h1{
     color: #181818;
     font-size: 35px;
@@ -186,14 +191,19 @@ nav .navigation ul{
 }
 
 #resume-container{
-   margin: 0 230px 113px 230px;
-   text-align: center;
-   max-width: 1093px;
+   padding: 0 277px 103px 277px;
+}
+
+#resume-container .r-container{
+    max-width: 1093px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .edu-exp{
     display: flex;
     justify-content: space-around;
+
 }
 
 #resume-container h1{
@@ -204,7 +214,7 @@ nav .navigation ul{
 }
 .edu-exp .education{
     text-align:left;
-    max-width: 515px;
+    width: 515px;
 }
 .edu-exp .education h2{
     font-size: 30;
